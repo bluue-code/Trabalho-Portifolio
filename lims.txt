@@ -1,0 +1,7 @@
+# Arquivo lims.txt
+# Criado para fins acadêmicos
+
+Site de: Bárbara Letizia Cabral Bernardo
+Curso: Sistemas para Internet - IF Sudeste MG
+Disciplina: Desenvolvimento Web
+Data de criação: 2025-08-01

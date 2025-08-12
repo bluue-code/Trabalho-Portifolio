@@ -1,0 +1,471 @@
+
+body{
+  background-image: url(https://frutiger-aero.org/img/frutiger-aero-12.webp);
+  background-size: 100%;
+  color: white;
+}
+.icone-a{
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+  border-radius: 20%;
+  font-size: 800%;
+  padding: 10px;
+  color: white;
+  float: inline-start;
+  margin: 1% 0 0 7%;
+}
+.icone-b{
+  width: 6%;
+  float: inline-start;
+  margin: 12% 0 0 -7%;
+}
+header{
+  background: linear-gradient(to top,  rgba(18,150,150,0.65) 0%,rgba(18,150,150,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 70%;
+  height: auto;
+  margin: 0 10% 10% 10%;
+  padding: 4% 2% 0.2% 2%;
+  border-radius: 7px;
+}
+.eu{
+  border-radius: 100%;
+  width: 20vw;
+  height: auto;
+  display: inline-block;
+  margin-left: 50%;
+  float: right;
+}
+.nome{
+  font-size: 4rem;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+h1{
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+p{
+  font-size: 2rem;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*.fa-face-smile{
+  color: #ffffff;
+  float: inline-start;
+  margin: -8% -8.5% 10% 10%;
+}*/
+.animate__animated:hover {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+.animate__pulse:hover{
+  --animate-duration: 800ms;
+  animation: pulse 1s infinite; /* Adiciona a animação "pulse" */
+
+}
+.animate__bounce:hover{
+  --animate-duration: 2s;
+  animation: bounce 1s infinite; /* Adiciona a animação "pulse" */
+}
+#about{
+  float: left;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 40%;
+  height: auto;
+  margin: -9.6% 10% 10% 10%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.aboout{
+  float: left;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 40%;
+  height: auto;
+  margin: -10.5% 0 10% 10%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+
+.navegar{
+  float: left;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 25%;
+  height: auto;
+  margin: -4.69% 10% auto 1%;
+  padding: 0 2% 0.4% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.menu-nav{
+  font-size: 2rem;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  float: left;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 25%;
+  height: auto;
+  margin: 0% 0 10% 1%;
+  padding: 1% 2% 1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+
+}
+#metas{
+  text-align: center;
+  font-size: 2.5rem;
+  float: left;
+  border-radius: 7px 7px;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 70%;
+  height: auto;
+  margin: -8% 10% 10% 10%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+#dooisnove{
+  float: left;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -11% 20% 10% 13%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doisnove{
+  font-size: 1.5rem;
+  float: left;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% auto auto 13%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.zoio{
+  border-radius: 20%;
+  border: 2px solid white;
+  background-color: blue;  
+  font-size: 200px;
+  padding: 10px;
+  color: white;
+  float: right;
+  margin: -8% 19% 0 7%;
+}
+#dooiszero{
+  float: right;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -10% 18% 10% 10%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doiszero{
+  font-size: 1.5rem;
+  float: right;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% 18% auto 13%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.code{
+  border-radius: 20%;
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%);  font-size: 190px;
+  padding: 10px;
+  color: white;
+  float: left;
+  margin: -0% 19% 0 13%;
+}
+
+
+#dooisum{
+  float: left;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -11% 20% 10% 13%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doisum{
+  font-size: 1.5rem;
+  float: left;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% auto auto 13%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.palheta{
+  border-radius: 20%;
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(230,240,163,1) 0%,rgba(210,230,56,1) 50%,rgba(195,216,37,1) 51%,rgba(219,240,67,1) 100%);  
+  font-size: 200px;
+  padding: 10px;
+  color: white;
+  float: right;
+  margin: 2% 19% 0 7%;
+}
+#dooisdois{
+  float: right;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -10% 20% 10% 20%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doisdois{
+  font-size: 1.5rem;
+  float: right;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% 20% auto 3%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.regua{
+  border-radius: 20%;
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%);  font-size: 190px;
+  padding: 10px;
+  color: white;
+  float: left;
+  margin: 1% 19% 0 13%;
+}
+
+
+#dooistres{
+  float: left;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -11% 20% 10% 13%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doistres{
+  font-size: 1.5rem;
+  float: left;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% auto auto 13%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.brush{
+  border-radius: 20%;
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%);  font-size: 190px;
+  padding: 10px;
+  color: white;
+  float: right;
+  margin: -1% 19% 0 12%;
+}
+
+
+#dooisquatro{
+  float: right;
+  border-radius: 7px 7px 0 0 ;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 50%;
+  height: auto;
+  margin: -10% 20% 10% 13%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.doisquatro{
+  font-size: 1.5rem;
+  float: right;
+  color: black;
+  background-color: rgba(225, 225, 225, 1.0);
+  width: 50%;
+  height: auto;
+  margin: -10.5% 20% auto 3%;
+  padding: 0.1% 2% 0.1% 2%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.pencil{
+  border-radius: 20%;
+  border: 2px solid white;
+  background: linear-gradient(to bottom, rgba(230,240,163,1) 0%,rgba(210,230,56,1) 50%,rgba(195,216,37,1) 51%,rgba(219,240,67,1) 100%);  
+  font-size: 180px;
+  padding: 10px;
+  color: white;
+  float: left;
+  margin: 0% 7% 0 13%;
+}
+
+
+#contato{
+  text-align: center;
+  font-size: 2.5rem;
+  float: left;
+  border-radius: 7px 7px 0 0;
+  color: whitesmoke;
+  background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); 
+  width: 68%;
+  height: auto;
+  margin: 2% 20% auto 10%;
+  padding: 0 2% 0.5% 2%;
+  box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
+}
+.info{
+  line-height: 0.8;
+  font-size: 2rem;
+  float: left;
+  color: white;
+  background: linear-gradient(to bottom, rgba(76,76,76,0.6) 0%,rgba(89,89,89,0.6) 12%,rgba(102,102,102,0.6) 25%,rgba(71,71,71,0.6) 39%,rgba(44,44,44,0.6) 50%,rgba(0,0,0,0.6) 51%,rgba(17,17,17,0.6) 60%,rgba(43,43,43,0.6) 76%,rgba(28,28,28,0.6) 91%,rgba(19,19,19,0.6) 100%);  width: 70%;
+  height: auto;
+  margin: 0 10% 2% 10%;
+  padding: 1%;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.8);
+
+}
+.icone-i{
+  border-radius: 10%;
+  color: white;
+  background: linear-gradient(to bottom, rgba(207,232,233,1) 0%,rgba(170,222,222,1) 17%,rgba(97,199,196,1) 50%,rgba(58,194,192,1) 51%,rgba(66,214,202,1) 59%,rgba(76,240,216,1) 71%,rgba(58,194,183,1) 84%,rgba(38,135,140,1) 100%);
+  font-size: 130%;
+  padding: 0.4%;
+  margin: 1% 0.5% auto auto;
+  float: inline-start;
+  box-shadow: 5px  0 10px 0   rgba(255, 255, 255, 0.4);
+}
+
+/*Para telas menores que 1024px (tablets e celulares grandes) */
+@media (max-width: 1024px) {
+  .icone-a {
+    font-size: 400%;
+    margin: 2% auto;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  .icone-b {
+    width: 20%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  header, #about, .aboout, .navegar, .menu-nav, #metas, .doisnove, #dooisnove,
+  #dooiszero, .doiszero, #dooisum, .doisum, #dooisdois, .doisdois, #dooistres,
+  .doistres, #dooisquatro, .doisquatro, #contato, .info {
+    width: 90%;
+    margin: 3% auto !important;
+    float: none !important;
+  }
+
+  .nome {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .eu {
+    width: 50vw;
+    float: none;
+    display: block;
+    margin: 2% auto;
+  }
+
+  .zoio, .code, .palheta, .regua, .brush, .pencil {
+    font-size: 120px;
+    float: none;
+    display: block;
+    margin: 2rem 75% auto 2%;
+  }
+
+  .info {
+    font-size: 1.3rem;
+  }
+}
+
+/*Para celulares (até 768px) */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  .menu-nav {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  .aboout{
+      background-color: green !important;
+    }
+  .icone-i {
+    font-size: 110%;
+  }
+}
+
+/*  Para celulares bem pequenos (até 480px) */
+@media (max-width: 480px) {
+
+  .nome {
+    font-size: 1.5rem;
+  }
+
+  .icone-a {
+    font-size: 200%;
+  }
+
+  .icone-b {
+    width: 30%;
+  }
+
+  .zoio, .code, .palheta, .regua, .brush, .pencil {
+    font-size: 80px;
+  }
+}

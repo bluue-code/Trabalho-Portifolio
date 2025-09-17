@@ -123,6 +123,7 @@ p{
 
 }
 #metas{
+  position: relative;
   text-align: center;
   font-size: 2.5rem;
   float: left;
@@ -131,7 +132,7 @@ p{
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   width: 70%;
   height: auto;
-  margin: -8% 10% 10% 10%;
+  margin: -8% 10% 5% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -140,9 +141,9 @@ p{
   border-radius: 7px 7px 0 0 ;
   color: whitesmoke;
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  width: 50%;
+  width: 51%;
   height: auto;
-  margin: -11% 20% 10% 13%;
+  margin: -14.5% 20% 10% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -151,9 +152,9 @@ p{
   float: left;
   color: black;
   background-color: rgba(225, 225, 225, 1.0);
-  width: 50%;
+  width: 51%;
   height: auto;
-  margin: -10.5% auto auto 13%;
+  margin: -10% auto auto 10%;
   padding: 0.1% 2% 0.1% 2%;
   border-radius: 0 0 7px 7px;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
@@ -166,16 +167,16 @@ p{
   padding: 10px;
   color: white;
   float: right;
-  margin: -8% 19% 0 7%;
+  margin: -3% 17% 0 7%;
 }
 #dooiszero{
   float: right;
   border-radius: 7px 7px 0 0 ;
   color: whitesmoke;
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  width: 50%;
+  width: 51%;
   height: auto;
-  margin: -10% 18% 10% 10%;
+  margin: -14% 17% 10% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -184,9 +185,9 @@ p{
   float: right;
   color: black;
   background-color: rgba(225, 225, 225, 1.0);
-  width: 50%;
+  width: 51%;
   height: auto;
-  margin: -10.5% 18% auto 13%;
+  margin: -10.5% 17% auto 10%;
   padding: 0.1% 2% 0.1% 2%;
   border-radius: 0 0 7px 7px;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
@@ -198,7 +199,7 @@ p{
   padding: 10px;
   color: white;
   float: left;
-  margin: -0% 19% 0 13%;
+  margin: 2% 19% 0 10%;
 }
 
 
@@ -209,7 +210,7 @@ p{
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   width: 50%;
   height: auto;
-  margin: -11% 20% 10% 13%;
+  margin: -15% 20% 10% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -220,7 +221,7 @@ p{
   background-color: rgba(225, 225, 225, 1.0);
   width: 50%;
   height: auto;
-  margin: -10.5% auto auto 13%;
+  margin: -10.5% auto auto 10%;
   padding: 0.1% 2% 0.1% 2%;
   border-radius: 0 0 7px 7px;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
@@ -233,7 +234,7 @@ p{
   padding: 10px;
   color: white;
   float: right;
-  margin: 2% 19% 0 7%;
+  margin: 2% 18% 0 7%;
 }
 #dooisdois{
   float: right;
@@ -242,7 +243,7 @@ p{
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   width: 50%;
   height: auto;
-  margin: -10% 20% 10% 20%;
+  margin: -14% 17% 10% 15%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -253,7 +254,7 @@ p{
   background-color: rgba(225, 225, 225, 1.0);
   width: 50%;
   height: auto;
-  margin: -10.5% 20% auto 3%;
+  margin: -10.5% 17% auto 3%;
   padding: 0.1% 2% 0.1% 2%;
   border-radius: 0 0 7px 7px;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
@@ -265,7 +266,7 @@ p{
   padding: 10px;
   color: white;
   float: left;
-  margin: 1% 19% 0 13%;
+  margin: 2% 19% 0 10%;
 }
 
 
@@ -276,7 +277,7 @@ p{
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   width: 50%;
   height: auto;
-  margin: -11% 20% 10% 13%;
+  margin: -14.5% 20% 10% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -287,7 +288,7 @@ p{
   background-color: rgba(225, 225, 225, 1.0);
   width: 50%;
   height: auto;
-  margin: -10.5% auto auto 13%;
+  margin: -10.5% auto auto 10%;
   padding: 0.1% 2% 0.1% 2%;
   border-radius: 0 0 7px 7px;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
@@ -299,7 +300,7 @@ p{
   padding: 10px;
   color: white;
   float: right;
-  margin: -1% 19% 0 12%;
+  margin: 1% 19% 0 12%;
 }
 
 
@@ -310,7 +311,7 @@ p{
   background: linear-gradient(to bottom,  rgba(166,210,189,1) 0%,rgba(65,165,118,1) 50%,rgba(166,210,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   width: 50%;
   height: auto;
-  margin: -10% 20% 10% 13%;
+  margin: -14% 20% 10% 10%;
   padding: 0 2% 0.5% 2%;
   box-shadow: 0  10px 10px 0  rgba(0, 0, 0, 0.8);
 }
@@ -334,7 +335,7 @@ p{
   padding: 10px;
   color: white;
   float: left;
-  margin: 0% 7% 0 13%;
+  margin: 2% 19% 0 10%;
 }
 
 
@@ -368,7 +369,7 @@ p{
   border-radius: 10%;
   color: white;
   background: linear-gradient(to bottom, rgba(207,232,233,1) 0%,rgba(170,222,222,1) 17%,rgba(97,199,196,1) 50%,rgba(58,194,192,1) 51%,rgba(66,214,202,1) 59%,rgba(76,240,216,1) 71%,rgba(58,194,183,1) 84%,rgba(38,135,140,1) 100%);
-  font-size: 130%;
+  font-size: 140%;
   padding: 0.4%;
   margin: 1% 0.5% auto auto;
   float: inline-start;
@@ -442,9 +443,6 @@ p{
   p {
     font-size: 1.2rem;
   }
-  .aboout{
-      background-color: green !important;
-    }
   .icone-i {
     font-size: 110%;
   }
